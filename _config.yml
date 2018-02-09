@@ -12,11 +12,11 @@ site-twitter: #if your site has a twitter account, enter it here
 author: chenjingcheng # add your name
 author-img: david-freeman.jpg # add your photo
 about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
-twitter: weiherty# add your Twitter handle
-facebook: weiherty# add your Facebook handle
+twitter: weiherty # add your Twitter handle
+facebook: weiherty # add your Facebook handle
 github: weiherty # add your Github handle
-linkedin: weiherty# add your Linkedin handle
-email: weiherty@gmail.com# add your Email address
+linkedin: weiherty # add your Linkedin handle
+email: weiherty@gmail.com # add your Email address
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
