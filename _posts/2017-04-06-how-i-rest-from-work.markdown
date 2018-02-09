@@ -8,6 +8,6 @@ tags: [日历, 玩物]
 ---
 图灵社区做的编程周历，已售罄。
 
-![购买地址](http://www.ituring.com.cn/book/2625)
+[购买地址](http://www.ituring.com.cn/book/2625)
 
 
