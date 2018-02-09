@@ -6,7 +6,7 @@ description: 一本有趣的日历 # Add post description (optional)
 img: 0008_java.jpg # Add image post (optional)
 tags: [日历, 玩物]
 ---
-图灵社区做的编程周历，已售罄。
+图灵社区做的编程周历，等我在微博上看到的时候已经售罄了，放出pdf电子版，可以用来做桌面。
 
 [购买地址](http://www.ituring.com.cn/book/2625)
 
