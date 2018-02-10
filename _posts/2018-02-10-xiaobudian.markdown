@@ -8,6 +8,6 @@ tags: [动画, 日本]
 ---
 电视动画《妖精森林的小不点》改编自樫木祐人洋介创作的同名漫画，于2017年8月宣布动画化，由Lerche负责动画制作。动画于2018年1月12日起播出。
 
-bilibili正版播送中。
+bilibili正版播送中。[点击播放](http://bangumi.bilibili.com/anime/21717)
 
 ![图片]({{site.baseurl}}/assets/img/xiaobudian1.jpg)
