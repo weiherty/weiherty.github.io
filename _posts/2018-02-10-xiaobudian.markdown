@@ -10,4 +10,6 @@ tags: [动画, 日本]
 
 bilibili正版播送中。[点击播放](http://bangumi.bilibili.com/anime/21717)
 
+[动画官网](http://hakumiko.com/)
+
 ![图片]({{site.baseurl}}/assets/img/xiaobudian1.jpg)
