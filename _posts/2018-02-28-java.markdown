@@ -6,7 +6,7 @@ description:  # Add post description (optional)
 img:  # Add image post (optional)
 tags: [java]
 ---
-##1. String转byte[]
+## 1. String转byte[]
 {% highlight java %}
 public static byte[] strToByteArray(String str) {
     if (str == null) {
@@ -16,7 +16,7 @@ public static byte[] strToByteArray(String str) {
     return byteArray;
 }
 {% endhighlight %}
-##2. byte[]转String
+## 2. byte[]转String
 {% highlight java %}
 public static String byteArrayToStr(byte[] byteArray) {
     if (byteArray == null) {
