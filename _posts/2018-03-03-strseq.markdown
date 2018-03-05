@@ -1,0 +1,81 @@
+---
+layout: post
+title: 分割字符串函数
+date: 2018-03-03 13:32:20 +0300
+description:  # Add post description (optional)
+img:  # Add image post (optional)
+tags: [strseq]
+---
+## 函数原型
+{% highlight c %}
+/*
+ * Get next token from string *stringp, where tokens are possibly-empty
+ * strings separated by characters from delim.
+ *
+ * Writes NULs into the string at *stringp to end tokens.
+ * delim need not remain constant from call to call.
+ * On return, *stringp points past the last NUL written (if there might
+ * be further tokens), or is NULL (if there are definitely no moretokens).
+ *
+ * If *stringp is NULL, strsep returns NULL.
+ */
+char *strsep(char **stringp, const char *delim)
+{
+    char *s;
+    const char *spanp;
+    int c, sc;
+    char *tok;
+    if ((s = *stringp)== NULL)
+        return (NULL);
+    for (tok = s;;) {
+        c = *s++;
+        spanp = delim;
+        do {
+            if ((sc =*spanp++) == c) {
+                if (c == 0)
+                    s = NULL;
+                else
+                    s[-1] = 0;
+                *stringp = s;
+                return (tok);
+            }
+        } while (sc != 0);
+    }
+    /* NOTREACHED */
+}
+{% endhighlight %}
+
+## 使用方法
+{% highlight c %}
+    char str[] = "abcdefg";
+　　char *p = str;
+　　char *key_point;
+　　while(p)
+　　{
+　　while ( key_point = strsep(&p,"cd"))
+//分隔符为c或d，它们连续出现了
+//遇到分隔符时把分隔符替换成'\0'返回前面的字符指针，p改成指向分隔符后面的字符
+　　{
+　　//函数遇到c时，key_point指向a，函数遇到d时，key_point指向d，*key_point = 0（注意此时d已经被改写为'\0'了）
+　　if (*key_point == 0)
+　　continue;//遇到连续的关键字，返回一个指向\0的指针，继续往后找就是
+　　else
+　　break;//分割出一个正常的字符串，快去打印吧！
+　　}
+　　printf("%s\n",key_point);
+　　}
+
+//下面这个函数就可以跳过多个连续的分隔字符了
+
+char *strsep_s(char **stringp, const char *delim)
+{
+	char *tok;
+	while(tok = strsep(stringp, delim))
+	{
+		if(strlen(tok))
+			return tok;
+	}
+
+	return NULL;
+}
+{% endhighlight %}
