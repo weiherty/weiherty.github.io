@@ -1,0 +1,15 @@
+---
+layout: post
+title: 动漫少女3D立体绘画
+date: 2018-03-13 13:32:20 +0300
+description:  # Add post description (optional)
+img: 0655acd919a52f0.jpg # Add image post (optional)
+tags: [3D, 动漫]
+---
+下图是推特名为mina_naya的网友晒出的3D立体绘画。
+
+![图片]({{site.baseurl}}/assets/img/4dbff9bc4e7d534.jpg)
+![图片]({{site.baseurl}}/assets/img/ca203a2e603258f.jpg)
+![图片]({{site.baseurl}}/assets/img/9c561fc796dcda4.jpg)
+![图片]({{site.baseurl}}/assets/img/79aa3614cd94576.jpg)
+![图片]({{site.baseurl}}/assets/img/1f68db14966500a.jpg)
